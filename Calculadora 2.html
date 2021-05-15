@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora 2</title>
+    <script src="Calculadora2.js"></script>
+  </head>
+  <body>
+
+    <div>
+      <h3 style="color: rgb(83, 83, 105)">Cadastro de Clientes</h3>
+
+      <form method="post" onsubmit="cadastrarCliente(event)">
+          <label for="anuncio">Nome do Anuncio</label> 
+          <input type="text" name="anuncio"> <br>
+
+          <label for="nomeCliente">Nome do Cliente</label> 
+          <input type="text" name="nomeCliente"> <br>
+
+          <label for="dataInicio">Qual a data de início do anúncio?</label> 
+          <input type="date" name="dataInicio"> <br>
+
+          <label for="dataFim">Qual a data final do anúncio?</label> 
+          <input type="date" name="dataFim"> <br>
+
+          <label for="valor">Qual o valor diário investido?</label> 
+          <input type="number" name="valor"> <br>
+
+          <button type="submit">Salvar</button>
+      </form>
+  </div>
+  
+  </body>
+</html>
