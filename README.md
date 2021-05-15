@@ -34,6 +34,8 @@ original + os compartilhamentos)
 
 A primeira parte foi enviada via e-mail para a Proway.
 
+Efetuei o código através da IDE Visual Studio Code, na linguagem JavaScript.
+
 O segundo arquivo trata-se da segunda parte do desafio, onde ao executar o arquivo html Calculadora 2, o 
 sistema apresentará uma página com os questionamentos listados no desafio. O usuário responderá as perguntas
 e logo após o sistema apresentará qual o valor total investido, qual a quantidade máxima de visualizações, qual
